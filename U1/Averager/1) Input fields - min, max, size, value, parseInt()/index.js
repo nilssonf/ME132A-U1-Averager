@@ -40,7 +40,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number
 
 
 // E6:  To get the value shown in an input field we use this:
-//      document.querySelector("#input_test_1").value
+
+document.querySelector("#input_test_1").value;
+
+console.log( document.querySelector("#input_test_1").value );
+
 //      Log to the console the current value of #input_test_1. It should
 //      be 13, if you managed the previous E correctly.
 
@@ -54,12 +58,18 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number
 //      Test this by manually changing the value of the input field. That is,
 //      by going to the webpage and changing that value.
 
+        
+document.querySelector("#button_test_1").addEventListener ( "click", F1, function (){
+    document.querySelector("#input_test_1").value;
+
+    console.log(document.querySelector("#input_test_1").value);
+})
 
 // E9:  NOTE that the value from the input field is a string, even if the input
 //      had type="number". You can see this in two ways:
 //      1) By the color the value has when logged to the console (white). Numbers are green.
 //      2) If you try + 1 to the value you get a concatenation (string) not an addition (number)
-//      Test both ways.
+//      Test both ways. -> blir 121, 131 osv
 
 
 // E10: We want to transform the string "1" (for instance) into the number 1.
@@ -74,6 +84,11 @@ let a = "23";
 // E11: Code a function (F1) that adds 23 to the number in the input field and
 //      logs the result to the console.
 
+function F1 (){
+    console.log( parseInt(document.querySelector("#input_test_1").value) + 23); 
+}
+
+F1();
 
 // E12: Now make sure that F1 is called when the user clicks on #button_test_1
 //      Test it!
