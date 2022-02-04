@@ -1,0 +1,12 @@
+Först har jag bara klistrat in funktionen som skapar divvarna från tidigare
+övning. 
+
+I nästa funktion med namnet gridMaker sätts tre parametrar för att kunna
+skapa griden. I denna funktion deklarerar jag hur stilen på gridden ska va
+med rows och columns. 
+
+Loop 1:
+
+Första loopen som är en nested loop sätter jag först en counter till att
+om C-värdet är större än 0 så ska loopen itereras med 1. För varje gång detta
+itereras så 

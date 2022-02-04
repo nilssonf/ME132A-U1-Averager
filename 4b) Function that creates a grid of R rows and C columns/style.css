@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+#grid{
+    display: grid;
+    height: 30vh;
+}

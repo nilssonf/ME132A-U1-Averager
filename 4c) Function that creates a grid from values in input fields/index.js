@@ -16,3 +16,18 @@ the values in #inputRows and #inputColumns as arguments.
 
 */
 
+function gridMaker( gridContainer, R, C){
+
+    gridContainer.style.gridTemplateRows = `repeat(${R}, 1fr)`;
+    gridContainer.style.gridTemplateColumns = `repeat(${C}, 1fr)`;
+
+}
+
+document.querySelector("button").addEventListener("click", function () {
+
+    gridMaker(
+        document.querySelector("#grid"),
+        document.querySelector("#inputRows").value,
+        document.querySelector("#inputCols").value
+    );
+});

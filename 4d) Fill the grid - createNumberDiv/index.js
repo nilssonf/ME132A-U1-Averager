@@ -17,3 +17,15 @@ This must append a div with a random number to the body each time it is called.
 
 
 */
+
+function createNumberDiv(){
+    let extraDiv = document.createElement( "div" );
+    extraDiv.innerHTML = randomNumber( 100 );
+
+    return extraDiv;
+}
+
+function randomNumber (max) {
+    return Math.floor(max * Math.random());
+}
+

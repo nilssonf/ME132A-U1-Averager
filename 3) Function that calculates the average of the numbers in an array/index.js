@@ -60,17 +60,11 @@ function adder ( _array ) {
 }
 
 function averg ( _array ) {
-  let sum = 0
-  
-  for(let i = 0; i < _array.length; i++){
-    sum = sum + _array[i];
-  }
-  
-  return sum;
-    
+
+ console.log(adder(_array) / _array.length)
   
 }
-
-console.log(averg([1, 2, 3, 4, 5]));
-
+averg([1, 2, 3, 4, 5]);
+averg([4,2]);
+averg([-1,1]);
 

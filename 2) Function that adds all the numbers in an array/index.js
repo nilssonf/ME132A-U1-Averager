@@ -70,16 +70,3 @@ console.log(adder([0]));
 
 
 
-
-
-// Första steget på rad 55 är att deklarera en funktion och gett den namnet adder,
-// den tar i sin tur emot en parameter som heter _array. 
-// Andra steget som gjorts i funktionen är att deklarera en variabel (sum), som tilldelas
-// värdet 0. 
-// I min funktion itererar jag en for-loop, där counter deklareras till 0 och att 
-// den ska fortsätta iterera så länge det är sant att _array.lenght är större än counter (i).
-// Värdet countern itereras med är 1. 
-// Själva loopen itererar summan av antalet celler i min referens (_array) + elementen. Här stänger jag for-loopen.
-// För att kunna returnera värdet på sum lägger jag till ett return-kommando,
-// vilket gör att när jag sedan console.loggar de olika array-parametrarna kommer det
-// resultera i att ett värde visas i konsollen. 
