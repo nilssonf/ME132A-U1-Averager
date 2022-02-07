@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+* {
+    font: 20px "Roboto Condensed";
+}
+  
+#top > div {
+    display: flex;
+    flex-basis: 6vh;
+    margin: 2vh;
+    justify-content: center;
+}
+  
+#top > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    margin: 0px 2vh;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    color: rgb(31, 71, 252);
+    font-size: 22px;
+}
+  
+#results span {
+    font-weight: bolder;
+}
+
+label{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    color: rgb(31, 71, 252);
+    padding-right: 7px;
+}
+
+button{
+    background-color: rgb(245, 214, 175);
+    color: rgb(31, 71, 252);
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 22px;
+    padding: 5px;
+    border: none;
+}
+button:active{
+    box-shadow: 0 0 7px rgba(31, 71, 252, 0.836);
+}
+
+button:hover{
+    color: rgb(245, 214, 175);
+    background-color: rgb(31, 71, 252);
+}
+
+span{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    color: rgb(31, 71, 252);
+    padding-left: 7px;
+}
+
+input{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    color: rgb(245, 214, 175);
+    background-color: rgb(31, 71, 252);
+    height: 20px;
+    font-size: 22px;
+    
+}
+  
+#grid {
+    margin: 2vh;
+    padding: 1vh;
+    flex-grow: 1;
+    display: grid;
+    gap: 1vh;
+  
+    font-size: 3vh;
+  
+   
+    background-color: rgb(31, 71, 252);
+    
+}
+  
+
+
+#grid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color:   rgb(245, 214, 175);
+    color: rgb(31, 71, 252);
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+  
+#grid > div.selected {
+    background-color: rgb(31, 71, 252);
+    color: rgb(245, 214, 175);
+}
+  
+#grid > div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(245, 214, 175, 0.658);
+}
+ 
