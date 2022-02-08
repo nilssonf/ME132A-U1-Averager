@@ -39,7 +39,7 @@ function gridMaker( gridContainer, R, C){
         }
     }
 
-// En loop:
+
 //let nTotal = R * C;
 //for (let i = 0; i < nTotal; i++) {
 //gridContainer.appendChild( createNumberDiv() );
@@ -51,7 +51,7 @@ function randomNumber (max) {
     return Math.floor(max * Math.random());
   }
   
-gridMaker(document.querySelector("#grid"), 12, 20);
+gridMaker(document.querySelector("#grid"), 8, 12);
 
 
 
