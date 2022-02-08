@@ -46,6 +46,7 @@ button:active {
 }
 
 button:hover {
+  cursor: pointer;
   color: rgb(245, 214, 175);
   background-color: rgb(31, 71, 252);
 }
@@ -68,13 +69,11 @@ input {
 }
 
 #grid {
-  margin: 2vh;
+  margin: 5vh 10vh 5vh 10vh;
   padding: 1vh;
   flex-grow: 1;
   display: grid;
   gap: 1vh;
-
-  font-size: 3vh;
 
   background-color: rgb(31, 71, 252);
 }

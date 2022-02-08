@@ -76,9 +76,7 @@ function randomNumber (max) {
 
 function roundString (numberWithManyDecimals, decimals) {
   var rounded = Math.pow(10, decimals)
-  return (Math.round(numberWithManyDecimals * rounded) / rounded).toFixed(
-    decimals
-  )
+  return (Math.round(numberWithManyDecimals * rounded) / rounded).toFixed(decimals)
 }
 
 function updateResults (className) {
